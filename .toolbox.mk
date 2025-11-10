@@ -26,7 +26,7 @@ TB_SYFT ?= $(TB_LOCALBIN)/syft
 # renovate: packageName=github.com/kubernetes-sigs/controller-tools
 TB_CONTROLLER_GEN_VERSION ?= v0.19.0
 # renovate: packageName=github.com/golangci/golangci-lint/v2
-TB_GOLANGCI_LINT_VERSION ?= v2.6.0
+TB_GOLANGCI_LINT_VERSION ?= v2.6.1
 TB_GOLANGCI_LINT_VERSION_NUM ?= $(call STRIP_V,$(TB_GOLANGCI_LINT_VERSION))
 # renovate: packageName=github.com/goreleaser/goreleaser/v2
 TB_GORELEASER_VERSION ?= v2.12.7
@@ -39,7 +39,7 @@ TB_OAPI_CODEGEN_VERSION ?= v2.5.1
 TB_SEMVER_VERSION ?= v1.1.7
 TB_SEMVER_VERSION_NUM ?= $(call STRIP_V,$(TB_SEMVER_VERSION))
 # renovate: packageName=github.com/anchore/syft/cmd/syft
-TB_SYFT_VERSION ?= v1.36.0
+TB_SYFT_VERSION ?= v1.37.0
 TB_SYFT_VERSION_NUM ?= $(call STRIP_V,$(TB_SYFT_VERSION))
 
 ## Tool Installer
